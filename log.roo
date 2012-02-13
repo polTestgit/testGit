@@ -1,0 +1,15 @@
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log opened at 2555-02-14 00:26:49
+quit
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log closed at 2555-02-14 00:34:23
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log opened at 2555-02-14 00:34:52
+project --topLevelPackage com.source.registration 
+persistence setup --provider HIBERNATE --database H2_IN_MEMORY 
+entity jpa --class ~.entity.Members
+field string --fieldName id --sizeMax 8
+field string --fieldName prefix --sizeMax 4
+field string --fieldName name --sizeMin 3
+field string --fieldName lastName --sizeMin 3
+field date --fieldName birth --type java.util.Date --dateFormat SHORT --timeFormat NONE 
+field number --fieldName age --type java.lang.Integer
+quit
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log closed at 2555-02-14 00:42:24
